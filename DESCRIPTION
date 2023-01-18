@@ -1,0 +1,20 @@
+Package: demo.compendium
+Type: Package
+Title: Tutorial to do reproducible research
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given   = "Claire",
+           family  = "Jacquet",
+           role    = c("aut", "cre", "cph"),
+           email   = "claire.jacquet@umontpellier.fr",
+           comment = c(ORCID = "0000-0002-7913-0689")))
+Description: The objective of this project is improve skills in reproducibility, software development and version management tools (e.g. Git, GitHub, R Markdown, Quarto, renv, Docker), applied to biodiversity research.
+URL: https://github.com/jacquetclaire/demo.compendium
+BugReports: https://github.com/jacquetclaire/demo.compendium/issues
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    here,
+    utils
